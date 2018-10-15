@@ -1,0 +1,98 @@
+body{
+  font-family: 'roboto';
+  background-color: #F4F4F6;
+  height: 500px;
+}
+
+
+.main-menu{
+position: absolute;
+top:0;
+width: 100%;
+height: 100px;
+padding:  5px 0 5px 0;
+text-align:center;
+line-height:32px;
+background-color:#666A86;
+
+  }
+
+ul.main-menu{
+  margin-top: 1px;
+}
+
+.main-menu li{
+  display:inline;
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+  width: 50%;
+  line-height: 100px;
+
+}
+
+.main-menu a{
+  text-decoration:none;
+  color: white;
+  padding:8px;
+  font-variant:small-caps;
+}
+
+#portfolio{
+  font-family: 'roboto';
+  color: #EF959D;
+  position: absolute;
+  height:auto;
+  font-size: 15px;
+  left: 80px;
+  margin-top: 100px;
+  line-height: 120px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.swavler{
+ width:300px;
+ height:auto;
+ left: 110px;
+ top: 10%;
+ bottom:-200px;
+ padding-top: 20px;
+display:inline-block;
+position:relative;
+transition:.3s;
+margin:0;
+  }
+
+  .swavler img{
+    max-width: 300px;
+    min-height: 300px;
+    width:100%;
+    height:100%;
+    transition:.3s;
+    border-radius:6px;
+    overflow: hidden;
+  }
+
+  .swavler:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px white;
+  }
+
+  .swavler :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+
+  .swavler h3{
+    top:50%
+  }
+
+  .swavler:hover :not(img){
+    opacity:1;
+  }

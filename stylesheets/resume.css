@@ -1,0 +1,96 @@
+body{
+  font-family: 'roboto';
+  background-color: #F4F4F6;
+  height: 1000px;
+}
+
+
+.main-menu{
+position: absolute;
+top:0;
+width: 100%;
+height: 100px;
+padding:  5px 0 5px 0;
+text-align:center;
+line-height:32px;
+background-color:#666A86;
+
+  }
+
+ul.main-menu{
+  margin-top: 1px;
+}
+
+.main-menu li{
+  display:inline;
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+  width: 50%;
+  line-height: 100px;
+
+}
+
+.main-menu a{
+  text-decoration:none;
+  color: white;
+  padding:8px;
+  font-variant:small-caps;
+}
+
+
+#resume{
+  font-family: 'roboto';
+  color: #EF959D;
+  position: absolute;
+  height:auto;
+  font-size: 15px;
+  left: 80px;
+  margin-top: 100px;
+  line-height: 120px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#linkedin{
+  position: absolute;
+  float: left;
+  height:auto;
+  font-size: 10px;
+  left: 5px;
+  margin: 100px;
+  line-height: 300px;
+}
+
+#facebook{
+  position: relative;
+  float: left;
+  height:auto;
+  font-size: 5px;
+  left: 100px;
+  margin: 100px;
+  line-height: 300px;
+}
+
+#instagram{
+  position: absolute;
+  float: left;
+  height:auto;
+  font-size: 5px;
+  left: 215px;
+  margin: 100px;
+  line-height: 300px;
+}
+
+#resumecontent{
+  font-family: 'roboto';
+  position: absolute;
+  height:auto;
+  left: 80px;
+  margin-top: 250px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #EF959D;
+}

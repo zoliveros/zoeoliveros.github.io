@@ -1,0 +1,342 @@
+#name{
+  font-family: 'Roboto', sans-serif;
+}
+
+.flexcontainer1{
+  font-family: 'Roboto', sans-serif;
+}
+#name{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100px;
+  background-color: #666A86;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  line-height: 20px;
+
+}
+
+body{
+  background-color: #F4F4F6;
+  height: 500px;
+}
+
+.flexcontainer1{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  min-height: 10px;
+  max-height: 200px;
+  border-width: 5px;
+}
+
+
+#about{
+  background-color: ;
+  background-image: url("../images/about.jpg");
+  background-repeat: no-repeat;
+  background-position:-550px 80px;
+  background-size:cover;
+  top:0;
+  left:0;
+  margin: 10px;
+  padding-top: 20%;
+  width:25%;
+  height:500px;
+  align-items: center;
+}
+
+
+#aboutcircle{
+  position: relative;
+  padding-bottom: 300px;
+  width: 160px;
+  height: 160px;
+  bottom: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.aboutbutton {
+  width: 160px;
+  height: 160px;
+  background-color: #EF959D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+
+.aboutbutton:after{
+  content: 'ABOUT ME';
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+ .aboutbutton:before {
+  content: 'Who am I?';
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+.aboutbutton:hover:after {
+  top: -50%;
+}
+
+.aboutbutton:before {
+
+  font-size: 15px;
+  top: 190%;
+}
+.aboutbutton:hover:before {
+  top: 50%;
+}
+
+.aboutbutton:after{
+  font-size: 15px;
+}
+
+#resume{
+  background-color: pink;
+  background-image: url("../images/resume.jpg" );
+  background-repeat: no-repeat;
+  background-position:-450px 80px;
+  background-size:cover;
+  margin:10px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20%;
+  width:25%;
+  height:500px;
+
+}
+
+
+#resumecircle{
+  position: relative;
+  padding-bottom: 300px;
+  width: 160px;
+  height: 160px;
+  bottom: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.resumebutton {
+  width: 160px;
+  height: 160px;
+  background-color: #EF959D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+
+.resumebutton:after{
+  content: 'RESUME';
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+ .resumebutton:before {
+  content: 'My experiences';
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+.resumebutton:hover:after {
+  top: -50%;
+}
+
+.resumebutton:before {
+
+  font-size: 15px;
+  top: 190%;
+}
+.resumebutton:hover:before {
+  top: 50%;
+}
+
+.resumebutton:after{
+  font-size: 15px;
+}
+
+
+#portfolio{
+  background-color: pink;
+  background-image: url("../images/cut.jpg" );
+  background-repeat: no-repeat;
+  background-position: -450px 80px;
+  background-size:cover;
+  margin:10px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20%;
+  width:25%;
+  height:500px;
+
+}
+
+
+#portfoliocircle{
+  position: relative;
+  padding-bottom: 300px;
+  width: 160px;
+  height: 160px;
+  bottom: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.portfoliobutton {
+  width: 160px;
+  height: 160px;
+  background-color: #EF959D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+
+.portfoliobutton:after{
+  content: 'PORTFOLIO';
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+ .portfoliobutton:before {
+  content: 'Some of my works';
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+.portfoliobutton:hover:after {
+  top: -50%;
+}
+
+.portfoliobutton:before {
+
+  font-size: 15px;
+  top: 190%;
+}
+.portfoliobutton:hover:before {
+  top: 50%;
+}
+
+.portfoliobutton:after{
+  font-size: 15px;
+}
+
+#contact{
+  background-color: pink;
+  background-image: url("../images/contact.jpg" );
+  background-repeat: no-repeat;
+  background-position: -420px 80px;
+  background-size:cover;
+  margin:10px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20%;
+  width:25%;
+  height:500px;
+
+}
+
+#contactcircle{
+  position: relative;
+  padding-bottom: 300px;
+  width: 160px;
+  height: 160px;
+  bottom: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.contactbutton {
+  width: 160px;
+  height: 160px;
+  background-color: #EF959D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+
+.contactbutton:after{
+  content: 'CONTACT';
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+ .contactbutton:before {
+  content: 'Want to collaborate?';
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+.contactbutton:hover:after {
+  top: -50%;
+}
+
+.contactbutton:before {
+
+  font-size: 15px;
+  top: 190%;
+}
+.contactbutton:hover:before {
+  top: 50%;
+}
+
+.contactbutton:after{
+  font-size: 15px;
+}
